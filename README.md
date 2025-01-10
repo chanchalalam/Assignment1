@@ -25,8 +25,8 @@ ultralytics,opencv-python,numpy
 
 ## How to Run the System
 
-1. Clone the Repository: git clone <repository-url>, cd <repository-folder>
-
+1. Clone the Repository: git clone https://github.com/chanchalalam/Assignment1.git
+   
 2. Prepare Input Video: Place your input video in the videos/ directory.
  Update the video path in main.py: cap = cv2.VideoCapture("videos/people.mp4")
    
