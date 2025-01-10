@@ -27,11 +27,12 @@ ultralytics,opencv-python,numpy
 
 1. Clone the Repository: git clone <repository-url>, cd <repository-folder>
 
-2. Prepare Input Video: Place your input video in the videos/ directory. Update the video path in main.py: cap = cv2.VideoCapture("videos/people.mp4")
+2. Prepare Input Video: Place your input video in the videos/ directory.
+ Update the video path in main.py: cap = cv2.VideoCapture("videos/people.mp4")
    
-3. Run the System: Execute the main script: python main.py
+5. Run the System: Execute the main script: python main.py
    
-4. View Outputs: JSON results are saved in output.json. Cropped images are saved in the output_images/ directory.
+6. View Outputs: JSON results are saved in output.json. Cropped images are saved in the output_images/ directory.
 
 
 
