@@ -8,13 +8,13 @@ def extract_subobjects(boxes, names, frame):
         x1, y1, x2, y2 = map(int, bbox)
         obj_name = names[idx]
 
-        if obj_name in ["person"]:  # Main object
+        if obj_name in ["person"]:  
             objects.append({
                 "object": obj_name,
                 "id": idx + 1,
                 "bbox": [x1, y1, x2, y2]
             })
-        elif obj_name in ["helmet"]:  # Example sub-object
+        elif obj_name in ["helmet"]:  
             sub_objects.append({
                 "object": obj_name,
                 "id": idx + 1,
